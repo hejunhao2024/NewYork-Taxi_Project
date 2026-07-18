@@ -93,7 +93,17 @@
         "weekday",
         "time_slot"
       ]
+    },
+    "travel_time_matrix_dijkstra.csv": {
+      "shape": [
+        263,
+        263
+      ],
+      "unit": "minutes",
+      "directional": true,
+      "unreachable_value": "inf",
+      "source": "train.parquet"
     }
   },
-  "travel_time_matrix_included": false
+  "travel_time_matrix_included": true
 }
